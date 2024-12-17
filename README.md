@@ -1,5 +1,5 @@
-# Bank System
-Bank System (Using OOP Principles)
+# Bank Management System
+A simple implementation of Bank management System Using OOP Principles
 
 •Key Features :
 
