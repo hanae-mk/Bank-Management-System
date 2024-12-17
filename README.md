@@ -1,7 +1,7 @@
 # Bank Management System
 A simple implementation of Bank management System Using OOP Principles
 
-•Key Features :
+●Key Features :
 
 1.Show Clients List
 
@@ -23,7 +23,7 @@ A simple implementation of Bank management System Using OOP Principles
 
 10.Logout
 
-•Programming Language Used:
+●Programming Language Used:
 
 C++
 
