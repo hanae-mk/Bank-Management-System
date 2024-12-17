@@ -1,5 +1,5 @@
 # Cpp Project
-Bank Project System (Using OOP Principles)
+Bank System (Using OOP Principles)
 
 •Key Features :
 
