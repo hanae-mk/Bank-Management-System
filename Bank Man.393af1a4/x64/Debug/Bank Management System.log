@@ -1,0 +1,16 @@
+﻿  Bank Management System.cpp
+C:\Users\pc\source\repos\Bank Management System\clsString.h(40,19): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(45,23): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(59,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(189,20): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(315,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(358,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(441,13): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsString.h(446,17): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsUser.h(181,12): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\pc\source\repos\Bank Management System\clsBankClient.h(199,9): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLogRecord' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\pc\source\repos\Bank Management System\clsTotalBalancesScreen.h(53,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\pc\source\repos\Bank Management System\clsBankClient.h(354,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\pc\source\repos\Bank Management System\clsBankClient.h(409,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+C:\Users\pc\source\repos\Bank Management System\clsUser.h(332,1): warning C4715: 'clsUser::Save': not all control paths return a value
+  Bank Management System.vcxproj -> C:\Users\pc\source\repos\Bank Management System\x64\Debug\Bank Management System.exe

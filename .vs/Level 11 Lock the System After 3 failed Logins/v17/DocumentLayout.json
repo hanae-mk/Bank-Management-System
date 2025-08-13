@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\Level 11 Lock the System After 3 failed Logins\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{393AF1A4-44E8-40D9-BA96-E3586BCC07A7}|Level 11 Lock The System After 3 Failed Login.vcxproj|C:\\Users\\pc\\source\\repos\\Level 11 Lock the System After 3 failed Logins\\Level 11 Lock the System After 3 failed Logins.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{393AF1A4-44E8-40D9-BA96-E3586BCC07A7}|Level 11 Lock The System After 3 Failed Login.vcxproj|solutionrelative:Level 11 Lock the System After 3 failed Logins.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Level 11 Lock the System After 3 failed Logins.cpp",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\Level 11 Lock the System After 3 failed Logins\\Level 11 Lock the System After 3 failed Logins.cpp",
+              "RelativeDocumentMoniker": "Level 11 Lock the System After 3 failed Logins.cpp",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\Level 11 Lock the System After 3 failed Logins\\Level 11 Lock the System After 3 failed Logins.cpp",
+              "RelativeToolTip": "Level 11 Lock the System After 3 failed Logins.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-13T21:23:51.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

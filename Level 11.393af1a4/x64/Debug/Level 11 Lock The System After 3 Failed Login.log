@@ -1,0 +1,2 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (Level 11.393af1a4\x64\Debug\) contains files shared from another project (Bank Management System.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Level 11 Lock The System After 3 Failed Login.vcxproj -> C:\Users\pc\source\repos\Level 11 Lock the System After 3 failed Logins\x64\Debug\Level 11 Lock the System After 3 failed Logins.exe
