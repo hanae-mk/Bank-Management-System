@@ -44,7 +44,7 @@ Use This Command Line :
 https://github.com/hanae-mk/Bank-Management-System.git
 
 2.Run The Project :
-### **Login Details**   
+**Login Details**   
    **UserName** : Admin   
    **Password** : 1234
 ***
