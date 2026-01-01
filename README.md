@@ -55,7 +55,7 @@ git clone https://github.com/hanae-mk/Bank-Management-System.git
 
 Please visit this link:  
 
-t.ly/QPyZz
+https://tinyurl.com/BankManagementProject
 
 Enjoy watching!
 
