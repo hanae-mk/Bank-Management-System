@@ -1,6 +1,7 @@
 
 # 🏛️ Bank Management System
-# **Overview**
+
+ ### 👀 **Overview**  
 
 This is a comprehensive **Console Application** that simulates basic banking operations, which I deeply focused on programming basics such as Object Oriented Programming Principles, Divide and Conquer Principle, writing clean and well organized code that is easy to understand and maintain.
 
