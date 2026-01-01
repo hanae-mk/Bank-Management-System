@@ -39,7 +39,7 @@ Visual Studio 2022
 
 ## 🚀 **Installation**
 
-1. Clone The Repository:  
+1. Clone The Repository:
 Use This Command Line :  
 https://github.com/hanae-mk/Bank-Management-System.git
 
