@@ -7,7 +7,7 @@ This is a comprehensive **Console Application** that simulates basic banking ope
 ***
 ## ✨ **Features**
 
-1.Show Clients List
+*1.Show Clients List*
 
 2.Add New Client
 
