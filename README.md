@@ -49,6 +49,8 @@ https://github.com/hanae-mk/Bank-Management-System.git
 ## 📽️ **Project Demo**
 
 Please visit this link:  
-https://lnkd.in/eEgBSeP2
+
+https://www.linkedin.com/posts/hanae-mk_oop-divideandconquer-cleancode-activity-7274861598194733057-sPeZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEk1ENoBmt6ejzKNiYswnr5ghSPme3LHWzg
+
 Enjoy watching!
 
