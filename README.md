@@ -9,23 +9,23 @@ This is a comprehensive **Console Application** that simulates basic banking ope
 
 **1.Show Clients List**
 
-2.Add New Client
+**2.Add New Client**
 
-3.Delete Client
+**3.Delete Client**
 
-4.Update Client Info
+**4.Update Client Info**
 
-5.Find Client
+**5.Find Client**
 
-6.Transactions
+**6.Transactions**
 
-7.Manage Users
+**7.Manage Users**
 
-8.Login Register
+**8.Login Register**
 
-9.Currency Exchange
+**9.Currency Exchange**
 
-10.Logout
+**10.Logout**
 
 ***
 
