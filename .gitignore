@@ -1,8 +1,6 @@
-# Visual Studio folders
+
 .vs/
 x64/
-
-# Build outputs
 *.exe
 *.obj
 *.pdb
@@ -10,8 +8,6 @@ x64/
 *.tlog
 *.idb
 *.log
-
-# User/IDE settings
 *.user
 *.suo
 *.filters
