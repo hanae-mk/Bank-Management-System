@@ -11,3 +11,5 @@ x64/
 *.user
 *.suo
 *.filters
+Debug/
+Release/
