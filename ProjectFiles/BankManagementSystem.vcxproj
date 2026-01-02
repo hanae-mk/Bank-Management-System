@@ -101,11 +101,23 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
   <ClCompile>
-    <AdditionalIncludeDirectories>$(ProjectDir)..\Core;$(ProjectDir)..\Libraries;$(ProjectDir)..\Screens\Client;$(ProjectDir)..\Screens\Currencies;$(ProjectDir)..\Screens\User;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    <WarningLevel>Level3</WarningLevel>
+    <SDLCheck>true</SDLCheck>
+    <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    <ConformanceMode>true</ConformanceMode>
+    <AdditionalIncludeDirectories>
+      $(ProjectDir)..\Core;
+      $(ProjectDir)..\Libraries;
+      $(ProjectDir)..\Screens\Client;
+      $(ProjectDir)..\Screens\Currencies;
+      $(ProjectDir)..\Screens\User;
+      %(AdditionalIncludeDirectories)
+    </AdditionalIncludeDirectories>
   </ClCompile>
 </ItemDefinitionGroup>
+
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
