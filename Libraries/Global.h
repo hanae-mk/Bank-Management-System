@@ -4,8 +4,6 @@
 #include "clsLoginScreen.h"
 
 
-const std::string DATA_PATH = "../Data/";
-
 clsUser CurrentUser = clsUser::Find("", ""); //Dummy Find
 
 

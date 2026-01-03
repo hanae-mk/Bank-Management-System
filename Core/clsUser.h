@@ -322,7 +322,7 @@ public:
             else
             {
                 _AddNew();
-                //We need to set the mode to update after add new
+                //You should set the mode to update after add new
                 _Mode = enMode::UpdateMode;
                 return enSaveResults::svSucceeded;
             }

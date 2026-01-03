@@ -1,4 +1,4 @@
-#pragma once //Load 1 time in memory explication in this video min 9
+#pragma once 
 
 #include <iostream>
 #include <vector>
@@ -46,8 +46,8 @@ public:
 	}
 
 	//This Static Member Function is a shared Function to all classes 
-	//we can call it without having an object
-	//We can use it generally
+	//You call it without having an object
+	//You can use it generally
 	//Doesn't Affect the object
 	static short CountWords(string S1)
 	{

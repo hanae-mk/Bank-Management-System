@@ -235,7 +235,6 @@ public:
 
 	void SetPinCode(string PinCode)
 	{
-		//Add new feature (go to video properties set/get course 10 min (12:35)
 		_PinCode = PinCode;
 	}
 
@@ -248,7 +247,6 @@ public:
 
 	void SetAccountBalance(double AccountBalance)
 	{
-		//Add new feature (go to video properties set/get course 10 min (12:35)
 		_AccountBalance = AccountBalance;
 	}
 
@@ -325,7 +323,7 @@ public:
 	{
 		switch (_Mode)
 		{
-		case enMode::EmptyMode:                        //We didn't write the error message
+		case enMode::EmptyMode:                        //Don't write the error message
 			return enSaveResults::svFailedEmptyObject; //Always Seperate UI from the object itself
 
 		case enMode::UpdateMode:
@@ -343,7 +341,7 @@ public:
 			{
 				_AddNew();
 
-				//We need to set the mode to update after add new
+				//Need to set the mode to update after add new
 				_Mode = enMode::UpdateMode;
 				return enSaveResults::svSuccessed;
 			}
