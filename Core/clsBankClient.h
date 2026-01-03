@@ -81,7 +81,7 @@ private:
 	{
 
 		fstream MyFile;
-		MyFile.open("Clients.txt", ios::out); //overwrite mode delets all data so we can't 
+		MyFile.open("Data/Clients.txt", ios::out); //overwrite mode delets all data so we can't 
 		//write while (getline(MyFile, Line))
 		string DataLine = "";
 
@@ -129,7 +129,7 @@ private:
 	{
 		fstream MyFile;
 
-		MyFile.open("Clients.txt", ios::out | ios::app);
+		MyFile.open("Data/Clients.txt", ios::out | ios::app);
 
 		if (MyFile.is_open())
 		{

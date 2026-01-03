@@ -103,7 +103,7 @@ private:
     {
 
         fstream MyFile;
-        MyFile.open("Users.txt", ios::out);//overwrite
+        MyFile.open("Data/Users.txt", ios::out);//overwrite
 
         string DataLine;
 
@@ -155,7 +155,7 @@ private:
     void _AddDataLineToFile(string  stDataLine)
     {
         fstream MyFile;
-        MyFile.open("Users.txt", ios::out | ios::app);
+        MyFile.open("Data/Users.txt", ios::out | ios::app);
 
         if (MyFile.is_open())
         {
@@ -413,7 +413,7 @@ public:
         string stDataLine = _PrepareLogInRecord();
 
         fstream MyFile;
-        MyFile.open("LoginRegister.txt", ios::out | ios::app);
+        MyFile.open("Data/LoginRegister.txt", ios::out | ios::app);
 
         if (MyFile.is_open())
         {

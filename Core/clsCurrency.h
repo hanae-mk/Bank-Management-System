@@ -64,7 +64,7 @@ private:
 	static void _SaveCurrencyDataToFile(vector <clsCurrency> vCurrencies)
 	{
 		fstream MyFile;
-		MyFile.open("Currencies.txt", ios::out);
+		MyFile.open("Data/Currencies.txt", ios::out);
 
 		string DataLine = "";
 
