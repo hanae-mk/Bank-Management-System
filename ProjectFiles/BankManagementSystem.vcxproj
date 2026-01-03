@@ -77,7 +77,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Core;$(ProjectDir)..\Libraries;$(ProjectDir)..\Screens\Client;$(ProjectDir)..\Screens\Currencies;$(ProjectDir)..\Screens\User;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    <AdditionalIncludeDirectories>
+      $(ProjectDir)..\Core;
+      $(ProjectDir)..\Libraries;
+      $(ProjectDir)..\Screens;
+      $(ProjectDir)..\Screens\Client;
+      $(ProjectDir)..\Screens\Currencies;
+      $(ProjectDir)..\Screens\User;
+      %(AdditionalIncludeDirectories)
+    </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -92,7 +100,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-     <AdditionalIncludeDirectories>$(ProjectDir)..\Core;$(ProjectDir)..\Libraries;$(ProjectDir)..\Screens\Client;$(ProjectDir)..\Screens\Currencies;$(ProjectDir)..\Screens\User;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    <AdditionalIncludeDirectories>
+      $(ProjectDir)..\Core;
+      $(ProjectDir)..\Libraries;
+      $(ProjectDir)..\Screens;
+      $(ProjectDir)..\Screens\Client;
+      $(ProjectDir)..\Screens\Currencies;
+      $(ProjectDir)..\Screens\User;
+      %(AdditionalIncludeDirectories)
+    </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -107,17 +123,17 @@
     <SDLCheck>true</SDLCheck>
     <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     <ConformanceMode>true</ConformanceMode>
-    <AdditionalIncludeDirectories>
+  <AdditionalIncludeDirectories>
       $(ProjectDir)..\Core;
       $(ProjectDir)..\Libraries;
+      $(ProjectDir)..\Screens;
       $(ProjectDir)..\Screens\Client;
       $(ProjectDir)..\Screens\Currencies;
       $(ProjectDir)..\Screens\User;
       %(AdditionalIncludeDirectories)
-    </AdditionalIncludeDirectories>
+  </AdditionalIncludeDirectories>
   </ClCompile>
 </ItemDefinitionGroup>
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -126,7 +142,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Core;$(ProjectDir)..\Libraries;$(ProjectDir)..\Screens\Client;$(ProjectDir)..\Screens\Currencies;$(ProjectDir)..\Screens\User;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    <AdditionalIncludeDirectories>
+      $(ProjectDir)..\Core;
+      $(ProjectDir)..\Libraries;
+      $(ProjectDir)..\Screens;
+      $(ProjectDir)..\Screens\Client;
+      $(ProjectDir)..\Screens\Currencies;
+      $(ProjectDir)..\Screens\User;
+      %(AdditionalIncludeDirectories)
+    </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,10 +179,10 @@
     <ClInclude Include="Screens\User\clsListUsersScreen.h" />
     <ClInclude Include="Screens\User\clsLoginRegisterScreen.h" />
     <ClInclude Include="Screens\User\clsLoginScreen.h" />
-    <ClInclude Include="clsMainScreen.h" />
+    <ClInclude Include="Screens\clsMainScreen.h" />
     <ClInclude Include="Screens\User\clsManageUsersScreen.h" />
     <ClInclude Include="Core\clsPerson.h" />
-    <ClInclude Include="clsScreen.h" />
+    <ClInclude Include="Screens\clsScreen.h" />
     <ClInclude Include="Libraries\clsString.h" />
     <ClInclude Include="Screens\Client\clsTotalBalancesScreen.h" />
     <ClInclude Include="Screens\Client\clsTransactionsScreen.h" />
@@ -170,7 +194,7 @@
     <ClInclude Include="Core\clsUser.h" />
     <ClInclude Include="Libraries\clsUtil.h" />
     <ClInclude Include="Screens\Client\clsWithdrawScreen.h" />
-    <ClInclude Include="Global.h" />
+    <ClInclude Include="Libraries\Global.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BankManagementSystem.cpp" />
